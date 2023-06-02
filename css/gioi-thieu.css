@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .logo_box {
+    position: relative;
+    width: 100%;
+  }
+  
+  .logo {
+    margin-left: 15%;
+    margin-top: 20px;
+    position: absolute;
+    top: 5lpx;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5rem;
+  }
+  
+  ul {
+    list-style: none;
+    text-align: right;
+    /* sử dụng text-align để canh chỉnh văn bản sang phải */
+    margin-right: 50px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 100px;
+    /* thêm khoảng cách 20px giữa các mục */
+    font-size: 18px;
+    margin-top: 45px;
+  }
+  # {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 420px;
+  }
+  p, .ts-big{  
+    font-size: 1rem;
+  }
+  .gt-tsbd{
+    justify-content: center;
+  }
+
+  .as{
+    position: relative;
+  }
+  .po{
+    position: absolute;
+    top: 50%;
+  }
