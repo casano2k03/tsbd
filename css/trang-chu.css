@@ -17,35 +17,69 @@
     margin-left: 15%;
     margin-top: 20px;
     position: absolute;
-    top: -60px;
+    top: 5lpx;
   }
   
-  a {
-    text-decoration: none;
-    color: black;
-    margin-bottom: 5rem;
+a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5rem;
+  font-size: 18px;
+}
+  
+ul {
+ list-style: none;
+ text-align: right;
+ /* sử dụng text-align để canh chỉnh văn bản sang phải */
+ margin-right: 50px;
   }
   
-  ul {
-    list-style: none;
-    text-align: right;
-    /* sử dụng text-align để canh chỉnh văn bản sang phải */
-    margin-right: 50px;
+li {
+  display: inline-block;
+  margin-right: 100px;
+ /* thêm khoảng cách 20px giữa các mục */
+  font-size: 18px;
+  margin-top: 45px;
   }
-  
-  li {
-    display: inline-block;
-    margin-right: 100px;
-    /* thêm khoảng cách 20px giữa các mục */
-    font-size: 18px;
-    margin-top: 45px;
-  }
-  
-  
+/* banner ở đây */
+.IMG-BANNER{
+  position: relative;
+  margin-top: 15px;
+}
+.title-img1{
+  position: absolute;
+  top: 27%;
+  left: 350px;
+}
+/* chữ trong banner */
+#ts-small{
+  font-size: 30px;
+}
+#ts-big{
+  margin-top: 30%;
+  font-size: 20px;
+}
+#ts-big2{
+  font-size: 20px;
+}
+
   h2 {
     text-align: center;
     margin-top: 30px;
     font-size: 35px;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .col-md-2{
+    margin: 5%;
+
+    
+  }
+
+  .card-title{
+    text-align: center;
+    font-size: 20px;
   }
   
   .carousel-inner {
@@ -65,9 +99,6 @@
     height: auto;
   }
   
-  .carousel-item div {
-    text-align: center;
-  }
   
   
   #product-la {
@@ -104,46 +135,37 @@
     top: 250px;
   }
   .main-content, title {
-    left: 40%;
+    left: 25%;
   }
   .main-content{
     margin-top: ;
-    right: 100px;
+    right: 50%;
   }
   .tea-info{
-    margin-top: 150px;
+    margin-top: 110px;
     text-align: justify;
-  }
-  .btn-group-lg > .btn, .btn-lg {
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    border-radius: 0.3rem;
-    background-color: #c5dc81;
-    border: none;
-  }
-  .btn-primary {
-    color: #fff;
-    background-color:#c5dc81;
-  }
-  
-  #tsbd{
-    font-family: "SVN-artful";
-    font-size: 7rem;
-    color: #4f6311;
-  }
-  
-  #gt{
-    margin-right: -425px;
-  
-  }
-  .banner{
-    position: relative;
-    display: block;
-    display: ;
-  }
-  
-  .nghenhan-content{
+}
+/* giới thiệu */
+#tsbd{
+  font-family: "SVN-artful";
+  font-size: 6rem;
+  color: #9cbe38;
+  margin-top: 10px;
+  position: relative;
+}
+#tsbd2{
+  position: absolute;
+  top: 90%;
+}
+.read-more{
+  margin-top: 30px;
+}
+/* căn giữa chữ giới thiệu */
+#gt{
+margin-right: -425px; 
+}
+/* dàn hàng cho các nghệ nhân */
+.nghenhan-content{
     display: flex;
     position: absolute;
     top: ;
@@ -162,6 +184,8 @@
     margin-inline: calc(40%);
     margin-top: 50px;
   }
+  
+  /* form mua ngay */
   .muaNgay{
     position: fixed;
   }
@@ -208,10 +232,7 @@
   
     padding: 200px;
   }
-  .carausel-item,
-  img {
-    margin-top: 60px;
-  }
+  
   #cava{
     margin:0px;
   }

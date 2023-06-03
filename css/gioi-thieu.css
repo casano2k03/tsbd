@@ -16,42 +16,76 @@
     top: 5lpx;
   }
   
-  a {
-    text-decoration: none;
-    color: black;
-    margin-bottom: 5rem;
+a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5rem;
+  font-size: 18px;
+}
+  
+ul {
+ list-style: none;
+ text-align: right;
+ /* sử dụng text-align để canh chỉnh văn bản sang phải */
+ margin-right: 50px;
   }
   
-  ul {
-    list-style: none;
-    text-align: right;
-    /* sử dụng text-align để canh chỉnh văn bản sang phải */
-    margin-right: 50px;
+li {
+  display: inline-block;
+  margin-right: 100px;
+ /* thêm khoảng cách 20px giữa các mục */
+  font-size: 18px;
+  margin-top: 45px;
   }
-  
-  li {
-    display: inline-block;
-    margin-right: 100px;
-    /* thêm khoảng cách 20px giữa các mục */
-    font-size: 18px;
-    margin-top: 45px;
-  }
-  # {
-    position: absolute;
-    margin-top: -500px;
-    margin-left: 420px;
-  }
-  p, .ts-big{  
-    font-size: 1rem;
-  }
-  .gt-tsbd{
-    justify-content: center;
+.banner{
+  margin-top: 18px;
+}
+
+.gt-tsbd{
+  justify-content: center;
   }
 
-  .as{
-    position: relative;
+.as{
+  position: relative;
   }
-  .po{
-    position: absolute;
-    top: 50%;
-  }
+.po{
+  position: absolute;
+  top: 45%;
+}
+#ts-small{
+  margin-left: 350px;
+  font-size: 2rem;
+  color: #c5dc81;
+}
+#ts-big{
+  margin-left: 350px;
+  font-size: 3rem;
+  margin-top: -70px;
+}
+#gt-title{
+  text-align: center;
+}
+.nd-gt{
+  margin-inline: 20%;
+  margin-top: 15px;
+  font-size: 18px;
+  text-align: justify;
+  justify-content: center;
+}
+#banner-02{
+position: relative;
+top: 40px;
+}
+.gt-tsbd{
+  position: absolute;
+  top: 100%;
+}
+#intro-1{
+  margin-top: 35px;
+}
+#intro-2{
+  margin-top: 35px;
+}
+#text-222, #text-111{
+  margin-top: 35px;
+}
